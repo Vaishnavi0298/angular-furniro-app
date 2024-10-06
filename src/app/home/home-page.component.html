@@ -1,0 +1,30 @@
+
+<div>
+  <app-banner></app-banner>
+  <app-image-section></app-image-section>
+  <div class="container">
+    <div class="text-center my-4">
+      <h2 class="fw-bold display-10 heading">Our Products</h2>
+
+    </div>
+    <div class="row">
+      <div class="col-md-3" *ngFor="let product of products1">
+        <app-product-card [name]="product.name" [product]=[product] [description]="product.description" [price]="product.price"
+          [originalPrice]="product.originalPrice" [discount]="product.discount" [isNew]="product.isNew"
+          [image]="product.image">
+        </app-product-card>
+      </div>
+    </div>
+
+    <!-- <div class="row">
+      <div class="col-md-3" *ngFor="let product of products2">
+        <app-product-card [name]="product.name" [product]=[product] [description]="product.description" [price]="product.price"
+          [originalPrice]="product.originalPrice" [discount]="product.discount" [isNew]="product.isNew"
+          [image]="product.image">
+        </app-product-card>
+      </div>
+    </div> -->
+  </div>
+  <app-carousel-card></app-carousel-card>
+  <app-grid-layout></app-grid-layout>
+</div>

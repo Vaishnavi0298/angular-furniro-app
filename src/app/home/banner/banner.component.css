@@ -1,0 +1,49 @@
+.hero-section {
+    background-image: url('/assets/banner-background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    height: 500px; /* Adjust the height as needed */
+    position: relative; /* Allows content overlay */
+  }
+  
+  .content-box {
+    background-color: #FFF3E3; /* Semi-transparent background */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .content-box h5 {
+    color: #333333; /* Customize text color for "New Arrival" */
+  }
+  
+  .content-box .display-4 {
+    font-size: 2.5rem;
+    color: #333;
+    
+
+  }
+  
+  .content-box p {
+    font-size: 1rem;
+    margin: 1.5rem 0;
+    color: #6c757d;
+  }
+  
+  .btn-primary {
+    background-color: #d4a357; /* Match the button color */
+    border-color: #d4a357;
+    padding: 0.75rem 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 400px; /* Adjust height for smaller screens */
+    }
+  
+    .content-box {
+      text-align: center;
+      padding: 1.5rem;
+      height: 100%; /* Or adjust to a specific value */
+      overflow: auto; /* Handle overflow if content exceeds height */
+    }
+  }

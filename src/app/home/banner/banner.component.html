@@ -1,0 +1,16 @@
+<div class="container-fluid h-full hero-section d-flex align-items-center justify-content-end">
+  <div class="row w-100">
+    <div class="col-md-6" *ngFor="let image of images" [ngStyle]="{'background-image': 'url(image.src)'}"
+      class="bg-image">
+
+    </div> <div class="col-12 col-md-6 offset-md-6 ">
+      <div class="content-box p-5 ">
+        <h5 class="text-uppercase">New Arrival</h5>
+        <h1 class="display-4 fw-bold" style="color: #B88E2F;">Discover Our New Collection</h1>
+        <p style="color: #333333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+          ullamcorper mattis.</p>
+        <a href="#" class="btn btn-primary btn-lg">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</div>

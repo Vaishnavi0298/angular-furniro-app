@@ -1,0 +1,52 @@
+body {
+    /* background: url('/aasets/cafe-chair.png') no-repeat center center fixed; */
+    background-size: cover;
+    filter: blur(5px);
+  }
+  
+  /* .container {
+    position: relative;
+    z-index: 1;
+  } */
+  
+  /* body {
+    background: url('/assets/cafe-chair.png') no-repeat center center fixed;
+    background-size: cover;
+  } */
+  
+  .bg-image {
+    background-image: url('/assets/shop-banner.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    min-height: 400px; /* Adjust as needed */
+    color: #F9F1E7;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.bg-image h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bg-image .breadcrumb {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bg-image .breadcrumb li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.bg-image .breadcrumb li a {
+ 
+    text-decoration: none;
+}
+
+.bg-image .breadcrumb li.active {
+    color: #ddd;
+}
